@@ -1,0 +1,21 @@
+.colorred {
+  color: darkred;
+}
+
+.bgcolor {
+  background-color: dimgray;
+  width: 100%;
+  text-align: center;
+}
+
+.textleft {
+  text-align: left !important;
+}
+
+.textright {
+  text-align: right;
+}
+
+.textcenter {
+  text-align: center;
+}

@@ -5,17 +5,17 @@ import mystyle from "../styles/mystyle.module.css";
 import { Button, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <div className={styles.container}>
-        <Link href="/about">
+        <Link href="/">
           <a>
-            <h2 className={mystyle.textleft}>About Page</h2>
+            <h2 className={mystyle.textleft}>Home</h2>
           </a>
         </Link>
         <div className={mystyle.bgcolor}>
-          <h2>Home Page</h2>
+          <h2>About Page</h2>
           <Image src="/images/profile.png" alt="profile pic" />
           <br />
           Hello <span className={mystyle.colorred}>World!</span>
